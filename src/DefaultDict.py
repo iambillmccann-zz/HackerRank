@@ -18,6 +18,4 @@ if __name__ == '__main__':
             print("-1")
             continue
 
-        for item in the_list:
-            print("{} ".format(item),end="")
-        print("")
+        print(*the_list)
